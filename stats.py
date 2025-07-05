@@ -1,2 +1,3 @@
-words = len(get_book_text.split())
-
+def get_num_words(text):
+    words = text.split()
+    return len(words)
